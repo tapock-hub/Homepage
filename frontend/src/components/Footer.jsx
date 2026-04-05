@@ -46,7 +46,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Connect With Us</h4>
             <div className="space-y-4">
               <a
-                href="https://github.com"
+                href="https://github.com/tapock-hub/Homepage"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-3 text-gray-400 hover:text-white transition-colors"
@@ -55,11 +55,11 @@ const Footer = () => {
                 <span>GitHub Repository</span>
               </a>
               <a
-                href="mailto:contact@aibusinessassistant.com"
+                href="mailto:zhanabaybaiet@gmail.com"
                 className="flex items-center space-x-3 text-gray-400 hover:text-white transition-colors"
               >
                 <Mail size={20} />
-                <span>contact@aibusinessassistant.com</span>
+                <span>zhanabaybaiet@gmail.com</span>
               </a>
               <a
                 href="https://youtu.be/Z9qEON57IkE"

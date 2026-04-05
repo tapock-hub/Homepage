@@ -3,13 +3,13 @@ import { Calendar, TrendingUp, CheckCircle } from 'lucide-react';
 
 const AdditionalInfo = () => {
   const timeline = [
-    { phase: 'Research & Validation', status: 'completed', month: 'Jan 2026' },
-    { phase: 'System Design', status: 'completed', month: 'Jan 2026' },
-    { phase: 'Bot Development', status: 'completed', month: 'Feb 2026' },
-    { phase: 'Database Integration', status: 'in-progress', month: 'Feb 2026' },
-    { phase: 'AI Integration', status: 'upcoming', month: 'Mar 2026' },
-    { phase: 'Testing Phase', status: 'upcoming', month: 'Mar 2026' },
-    { phase: 'MVP Launch', status: 'upcoming', month: 'Apr 2026' },
+    { phase: 'Research & Validation', status: 'completed' },
+    { phase: 'System Design', status: 'completed' },
+    { phase: 'Bot Development', status: 'in-progress' },
+    { phase: 'Database Integration', status: 'upcoming' },
+    { phase: 'AI Integration', status: 'upcoming' },
+    { phase: 'Testing Phase', status: 'upcoming' },
+    { phase: 'MVP Launch', status: 'upcoming' },
   ];
 
   const futureImprovements = [
@@ -95,9 +95,8 @@ const AdditionalInfo = () => {
                     )}
                   </div>
                   <div className="flex-1 pb-8">
-                    <div className="flex items-center justify-between mb-2">
+                    <div className="mb-2">
                       <h4 className="font-bold text-gray-900">{item.phase}</h4>
-                      <span className="text-sm text-gray-500">{item.month}</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       {item.status === 'completed' && (

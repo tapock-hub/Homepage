@@ -102,11 +102,18 @@ Create a fully functional, presentation-ready homepage for the AI Business Assis
 
 ## Next Action Items
 1. ✅ Review and approve the current design
-2. Test on multiple devices and browsers
-3. Update GitHub repository link when available
-4. Add Google Analytics or tracking pixels
-5. Deploy to GitHub Pages as per assignment requirements
-6. Create backend API (if needed for contact form)
+2. ✅ Add GitHub repository link: https://github.com/tapock-hub/Homepage
+3. ✅ Update contact email to: zhanabaybaiet@gmail.com
+4. ✅ Update development timeline (remove dates, Bot Development in progress)
+5. Test on multiple devices and browsers
+6. Deploy to GitHub Pages as per assignment requirements
+7. Add Google Analytics or tracking pixels (optional)
+
+## Recent Updates (December 2025)
+- Added actual GitHub repository link to footer
+- Updated contact email to zhanabaybaiet@gmail.com
+- Modified development timeline to remove dates
+- Changed "Bot Development" status to "in progress"
 
 ## Notes
 - All content is currently static (no backend integration)

@@ -55,6 +55,7 @@ const PrototypeSection = () => {
 
       return () => clearTimeout(resetTimer);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentIndex]);
 
   return (
