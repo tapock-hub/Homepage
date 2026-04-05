@@ -133,18 +133,9 @@ const AdditionalInfo = () => {
                   key={index}
                   className="bg-gray-50 rounded-xl p-6 hover:shadow-md transition-shadow"
                 >
-                  <div className="flex items-start justify-between mb-3">
-                    <h4 className="font-bold text-gray-900 text-lg">
-                      {improvement.title}
-                    </h4>
-                    <span
-                      className={`text-xs font-semibold px-3 py-1 rounded-full border ${
-                        priorityColors[improvement.priority]
-                      }`}
-                    >
-                      {improvement.priority.toUpperCase()}
-                    </span>
-                  </div>
+                  <h4 className="font-bold text-gray-900 text-lg mb-3">
+                    {improvement.title}
+                  </h4>
                   <p className="text-gray-600 text-sm">
                     {improvement.description}
                   </p>
