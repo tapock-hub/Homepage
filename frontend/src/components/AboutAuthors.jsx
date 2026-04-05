@@ -8,6 +8,7 @@ const AboutAuthors = () => {
       role: 'Development and Social Impact Manager',
       initial: 'A',
       color: 'blue',
+      photo: 'https://customer-assets.emergentagent.com/job_ai-biz-assistant-3/artifacts/papniroq_WhatsApp%20Image%202026-03-30%20at%2013.03.59.jpeg',
       responsibilities: [
         'Strategic development of AI Assistant',
         'Integration into real business environment',
@@ -74,9 +75,17 @@ const AboutAuthors = () => {
                   <div className="absolute bottom-0 right-0 w-40 h-40 bg-white rounded-full translate-x-1/2 translate-y-1/2"></div>
                 </div>
                 <div className="relative">
-                  <div className="w-24 h-24 bg-white text-gray-900 rounded-full flex items-center justify-center text-4xl font-bold mx-auto mb-4">
-                    {author.initial}
-                  </div>
+                  {author.photo ? (
+                    <img
+                      src={author.photo}
+                      alt={author.name}
+                      className="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-4 border-white shadow-lg"
+                    />
+                  ) : (
+                    <div className="w-24 h-24 bg-white text-gray-900 rounded-full flex items-center justify-center text-4xl font-bold mx-auto mb-4">
+                      {author.initial}
+                    </div>
+                  )}
                   <h3 className="text-3xl font-bold text-white mb-2">
                     {author.name}
                   </h3>
