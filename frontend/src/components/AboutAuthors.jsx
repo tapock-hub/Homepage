@@ -27,6 +27,7 @@ const AboutAuthors = () => {
       role: 'Programmer and AI Training',
       initial: 'B',
       color: 'green',
+      photo: 'https://customer-assets.emergentagent.com/job_ai-biz-assistant-3/artifacts/t7k8xmtb_photo_2026-04-05_15-01-24.jpg',
       responsibilities: [
         'Developing user-friendly and functional interface',
         'Application development for end users',
@@ -79,10 +80,10 @@ const AboutAuthors = () => {
                     <img
                       src={author.photo}
                       alt={author.name}
-                      className="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-4 border-white shadow-lg"
+                      className="w-36 h-36 rounded-full mx-auto mb-4 object-cover border-4 border-white shadow-lg"
                     />
                   ) : (
-                    <div className="w-24 h-24 bg-white text-gray-900 rounded-full flex items-center justify-center text-4xl font-bold mx-auto mb-4">
+                    <div className="w-36 h-36 bg-white text-gray-900 rounded-full flex items-center justify-center text-5xl font-bold mx-auto mb-4">
                       {author.initial}
                     </div>
                   )}
