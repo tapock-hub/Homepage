@@ -43,10 +43,6 @@ const TechnicalRequirements = () => {
       features: ['Add/remove products', 'Track stock levels', 'Low-stock identification'],
     },
     {
-      title: 'Financial Tracking',
-      features: ['Record income & expenses', 'Profit/loss calculation', 'Basic financial insights'],
-    },
-    {
       title: 'AI Chat Interaction',
       features: ['Natural language commands', 'Structured data conversion', 'Clear confirmations'],
     },
@@ -114,7 +110,7 @@ const TechnicalRequirements = () => {
           <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">
             System Functionalities
           </h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {systemFeatures.map((feature, index) => (
               <div
                 key={index}
