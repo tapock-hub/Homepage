@@ -21,12 +21,6 @@ const FunctionalityPresentation = () => {
       description: 'Track stock levels and get alerts for low inventory',
       benefits: ['Add/remove products', 'Stock tracking', 'Low-stock alerts'],
     },
-    {
-      icon: DollarSign,
-      title: 'Financial Tracking',
-      description: 'Record income, expenses, and calculate profit automatically',
-      benefits: ['Income/expense logs', 'Profit calculation', 'Financial insights'],
-    },
   ];
 
   const steps = [
@@ -75,7 +69,7 @@ const FunctionalityPresentation = () => {
         </div>
 
         {/* Features Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
+        <div className="grid md:grid-cols-3 gap-6 mb-20">
           {features.map((feature, index) => (
             <div
               key={index}
