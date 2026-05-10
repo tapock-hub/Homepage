@@ -18,6 +18,7 @@ const Header = () => {
     { name: 'Features', href: '#functionality' },
     { name: 'Prototype', href: '#prototype' },
     { name: 'Technical', href: '#technical' },
+    { name: 'Development', href: '#development-process' },
     { name: 'Team', href: '#authors' },
   ];
 

@@ -4,6 +4,7 @@ import ProjectDescription from '../components/ProjectDescription';
 import FunctionalityPresentation from '../components/FunctionalityPresentation';
 import PrototypeSection from '../components/PrototypeSection';
 import TechnicalRequirements from '../components/TechnicalRequirements';
+import DevelopmentProcess from '../components/DevelopmentProcess';
 import SponsorInterview from '../components/SponsorInterview';
 import AboutAuthors from '../components/AboutAuthors';
 import AdditionalInfo from '../components/AdditionalInfo';
@@ -19,6 +20,7 @@ const HomePage = () => {
       <FunctionalityPresentation />
       <PrototypeSection />
       <TechnicalRequirements />
+      <DevelopmentProcess />
       <SponsorInterview />
       <AboutAuthors />
       <AdditionalInfo />
